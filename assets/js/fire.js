@@ -92,18 +92,28 @@ firestore
               '<i class="fa fa-external-link-alt mb-2"></i></li></a>';
           }
         } else {
-          document.querySelector("#projects").innerHTML +=
-            '<a href="' +
-            data[i].plink +
-            '" target="_black"><li class=""><p class="langs">' +
-            data[i].plang +
-            '</p><p class="ti">' +
-            data[i].name +
-            '</p><p class="di">' +
-            data[i].disc +
-            "</p>" +
-            '<i class="fa fa-external-link-alt mb-2"></i></li></a>';
-        }
+          if (data[i].img) {
+            document.querySelector("#projects").innerHTML +=
+              '<a href="' +
+              data[i].plink +
+              '" target="_black" class="staggered"> <img src="' +
+              data[i].img +
+              '" class="img-fluid upto-img" />' +
+              "</a>";
+          } else {
+            document.querySelector("#projects").innerHTML +=
+              '<a href="' +
+              data[i].plink +
+              '" target="_black"><li class=""><p class="langs">' +
+              data[i].plang +
+              '</p><p class="ti">' +
+              data[i].name +
+              '</p><p class="di">' +
+              data[i].disc +
+              "</p>" +
+              '<i class="fa fa-external-link-alt mb-2"></i></li></a>';
+          }
+          }
 
         console.log("the plus: " + counterplus);
         console.log("the i: " + i);
