@@ -3,7 +3,7 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyC0PNDN4aBzeV0ycJlLTdZNcLnNhbBKjl4",
-  authDomain: "alemalohe-8fb0a.firebaseapp.com",
+  authDomain: "alemalohe-8fb0a.firebaseapp.com", 
   databaseURL: "https://alemalohe-8fb0a.firebaseio.com",
   projectId: "alemalohe-8fb0a",
   storageBucket: "alemalohe-8fb0a.appspot.com",
