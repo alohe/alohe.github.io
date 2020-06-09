@@ -1,5 +1,5 @@
 
-//initalization of the firestore
+//initalization of the firestore 
 // Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyC0PNDN4aBzeV0ycJlLTdZNcLnNhbBKjl4",
