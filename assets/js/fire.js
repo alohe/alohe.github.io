@@ -1,3 +1,4 @@
+
 //initalization of the firestore
 // Your web app's Firebase configuration
 var firebaseConfig = {
@@ -77,6 +78,18 @@ firestore
               data[i].img +
               '" class="img-fluid upto-img" />' +
               "</a>";
+          } else {
+            document.querySelector("#projects").innerHTML +=
+              '<a href="' +
+              data[i].plink +
+              '" target="_black"><li class="staggered"><p class="langs">' +
+              data[i].plang +
+              '</p><p class="ti">' +
+              data[i].name +
+              '</p><p class="di">' +
+              data[i].disc +
+              "</p>" +
+              '<i class="fa fa-external-link-alt mb-2"></i></li></a>';
           }
         } else {
           document.querySelector("#projects").innerHTML +=
@@ -104,19 +117,3 @@ firestore
         '<p class="featch-error">Whoops! an error occured while featching Projects <br><button onClick="window.location.reload()"><i class="fa fa-sync-alt"></i> Refresh</button></p>';
     }
   });
-
-/* //dynamically set reference to the file name
-firestore
-  .collection("projects")
-  .add({
-    video_link: 'asdf',
-    video_title: 'asdfasdf',
-    timestamp: firebase.firestore.FieldValue.serverTimestamp()
-  })
-  .then(function(docRef) {
-    console.log("Document written with ID: " + docRef.id);
-    myclosefunction();
-  })
-  .catch(function(error) {
-    console.log("Error adding document: " + error);
-  }); */
