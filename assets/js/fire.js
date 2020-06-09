@@ -96,7 +96,7 @@ firestore
             document.querySelector("#projects").innerHTML +=
               '<a href="' +
               data[i].plink +
-              '" target="_black" class="staggered"> <img src="' +
+              '" target="_black" class=""> <img src="' +
               data[i].img +
               '" class="img-fluid upto-img" />' +
               "</a>";
