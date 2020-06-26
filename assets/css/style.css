@@ -87,7 +87,7 @@ button:focus{
     font-family: 'Montserrat';
     font-weight: 700;
     text-transform: capitalize;
-    background-color: var(--pink);
+    background-color: var(--dark);
     color: white;
     border: none;
     border-radius: 10px;
