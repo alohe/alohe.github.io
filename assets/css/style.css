@@ -10,6 +10,7 @@
 html, body{
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 button:focus{
@@ -511,7 +512,8 @@ nav button:hover{
 
 .upto-cards li:hover {
     /* transform: scale(1.07); */
-    box-shadow: 0 0 30px 0 rgb(226, 226, 226);
+    background: white;
+    box-shadow: 0 0 30px 0 rgba(226, 226, 226, 0.562);
     color: var(--dark-light);
 }
 
