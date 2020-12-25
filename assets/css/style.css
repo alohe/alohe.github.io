@@ -1,5 +1,5 @@
 :root{
-    --dark: #0D0C22;
+    --dark: #000000;
     --dark-light: #6e6d7a;
     --light: #F3F3F4;
     --pink: #EA4C89;
@@ -363,7 +363,7 @@ nav button:hover{
     .masthead .masthead-color-block{
         height: 250px;
         width: 150px;
-        background: var(--pink);
+        background: transparent;
         margin-left: auto;
         margin-right: -10px;
     }
