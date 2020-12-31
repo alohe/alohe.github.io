@@ -159,9 +159,9 @@ button:focus{
 
 .masthead .masthead-img{
     width: 600px;
-    background-color: white;
-    background-image: url("https://cdn.dribbble.com/users/2831668/screenshots/11360846/media/b9bae33e1be618df8bf0fc4c263f58b1.gif");
+    background-color: var(--light);
     background-size: cover;
+    background-position: center;
     height: 450px;
     margin-top: -350px;
     border: none;

@@ -146,10 +146,11 @@ var headerImgs = document.querySelectorAll(".masthead-img");
 
 
 var imgs = [
-  "https://transcenders.co/assets/img/2.png",
-  "https://cdn.dribbble.com/users/2831668/screenshots/11360846/media/b9bae33e1be618df8bf0fc4c263f58b1.gif",
-  "https://cdn.dribbble.com/users/2831668/screenshots/11458323/media/f0f3675b8b660e66d0b2c95422d16472.gif",
+  "https://transcenders.co/assets/img/mcn.gif",
+  "https://ph-files.imgix.net/fb0a6f07-4a88-4c5e-99b5-0e475d1ea215.jpeg",
   "https://cdn.dribbble.com/users/2831668/screenshots/11543594/media/e7a2a872aa6f535f24e3d0425843cae0.png",
+  //"https://cdn.dribbble.com/users/2831668/screenshots/11360846/media/b9bae33e1be618df8bf0fc4c263f58b1.gif",
+  "https://cdn.dribbble.com/users/2831668/screenshots/11458323/media/f0f3675b8b660e66d0b2c95422d16472.gif",
 ];
 var current = 0;
 
