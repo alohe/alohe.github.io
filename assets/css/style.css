@@ -174,7 +174,7 @@ button:focus{
     background-color: white;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 450px; 
     margin-top: -350px;
     border: none;
     border-radius: 10px;
