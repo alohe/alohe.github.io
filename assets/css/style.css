@@ -101,8 +101,7 @@ button:focus{
 
 .hire:hover{
     color: var(--dark);
-    background-color: #F3F3F4;
-    
+    background: var(--light);
 }
 
 .hire2{
