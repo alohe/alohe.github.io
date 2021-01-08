@@ -361,24 +361,20 @@ nav button:hover{
     }    
 
     .masthead .masthead-color-block{
-        height: 250px;
-        width: 150px;
+        display: none;
         margin-left: auto;
         border-top-left-radius: 20px;
         background: transparent;
     }
 
     .masthead .masthead-img{
-        width: calc(100% - 30px);   
-        height: 220px;
-       /*  background-color: var(--light);
-        background-image: url("https://cdn.dribbble.com/users/702789/profile/masthead_image/group_58.png"); */
+        width: calc(100%);   
+        height: 250px;
+       
         background-size: cover;
-        margin-top: -180px;
-        margin-bottom: 20px;
-        margin-right: auto;
-        margin-left: auto;
-        box-shadow: 0 0 20px 0 rgb(234, 232, 236);
+        margin-top: 0px;
+        margin-bottom: 35px;
+        border-radius: 0;
     }
 
     .header .main{
