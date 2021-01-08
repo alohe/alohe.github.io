@@ -363,21 +363,23 @@ nav button:hover{
     .masthead .masthead-color-block{
         height: 250px;
         width: 150px;
-        background: transparent;
         margin-left: auto;
-        margin-right: -10px;
+        border-top-left-radius: 20px;
+        background: transparent;
     }
 
     .masthead .masthead-img{
-        width: 320px;
+        width: 220px;
+        height: 220px;
        /*  background-color: var(--light);
         background-image: url("https://cdn.dribbble.com/users/702789/profile/masthead_image/group_58.png"); */
         background-size: cover;
-        height: 240px;
-        margin-top: -200px;
+        margin-top: -180px;
         margin-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 28px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 100%;
+        box-shadow: 0 0 20px 0 rgb(234, 232, 236);
     }
 
     .header .main{
