@@ -94,6 +94,9 @@ button:focus{
     border-radius: 10px;
     transition: 0.2s;
     margin-left: 1rem;
+    background: linear-gradient(257deg, #4158D0, #C850C0, #FFCC70, #FBDA61, #FF5ACD);
+    background-size: 600% 600%;
+    animation: AnimationName 8s ease infinite;
 }
 
 .hire:hover{
@@ -103,20 +106,28 @@ button:focus{
 }
 
 .hire2{
-    height: 45px;
-    font-size: 15px;
+    height: 100px;
+    font-size: 20px;
     font-family: 'Montserrat';
     font-weight: 700;
     text-transform: capitalize;
-    background-color: var(--dark);
     color: white;
     border: none;
-    transition: 0.2s;
+    background: linear-gradient(257deg, #4158D0, #C850C0, #FFCC70, #FBDA61, #FF5ACD);
+    background-size: 600% 600%;
+    animation: AnimationName 8s ease infinite;
 }
 
 .hire2:hover{
     color: var(--dark);
-    background-color: #F3F3F4;
+    background: var(--light);
+}
+
+
+@keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
 }
 
 
@@ -686,10 +697,3 @@ nav button:hover{
     border-top-color: transparent !important;
     display: none;
 }
-
-
-.web-d{
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    border-top-right-radius: 70px;
-}  
