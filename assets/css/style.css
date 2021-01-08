@@ -96,7 +96,7 @@ button:focus{
     margin-left: 1rem;
     background: linear-gradient(257deg, #4158D0, #C850C0, #FFCC70, #FBDA61, #FF5ACD);
     background-size: 600% 600%;
-    animation: AnimationName 8s ease infinite;
+    animation: BgAnime 8s ease infinite;
 }
 
 .hire:hover{
@@ -114,7 +114,7 @@ button:focus{
     border: none;
     background: linear-gradient(257deg, #4158D0, #C850C0, #FFCC70, #FBDA61, #FF5ACD);
     background-size: 600% 600%;
-    animation: AnimationName 8s ease infinite;
+    animation: BgAnime 8s ease infinite;
 }
 
 .hire2:hover{
@@ -123,7 +123,7 @@ button:focus{
 }
 
 
-@keyframes AnimationName {
+@keyframes BgAnime {
     0%{background-position:0% 60%}
     50%{background-position:100% 41%}
     100%{background-position:0% 60%}
@@ -162,20 +162,22 @@ button:focus{
 
 .masthead .masthead-color-block{
     height: 400px;
-    width: 300px;
-    background: var(--light);
+    width: 400px;
     margin-left: auto;
+    background: linear-gradient(257deg, #C850C0, #4158D0,  #C850C0, #FFCC70, #FF5ACD, #4158D0);
+    background-size: 600% 600%;
+    animation: BgAnime 8s ease infinite;
 }
 
 .masthead .masthead-img{
     width: 600px;
-    background-color: var(--light);
+    background-color: white;
     background-size: cover;
     background-position: center;
     height: 450px;
     margin-top: -350px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
@@ -668,7 +670,7 @@ nav button:hover{
 .tooltip-inner {
     background-color: var(--pink);
     color: white;
-    font-family: "Montserrat";
+    font-family: "Poppins";
     font-weight: 600;
     font-size: 14px;
     padding: 20px;
