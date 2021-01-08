@@ -369,7 +369,7 @@ nav button:hover{
     }
 
     .masthead .masthead-img{
-        width: 220px;   
+        width: calc(100% - 30px);   
         height: 220px;
        /*  background-color: var(--light);
         background-image: url("https://cdn.dribbble.com/users/702789/profile/masthead_image/group_58.png"); */
@@ -378,7 +378,6 @@ nav button:hover{
         margin-bottom: 20px;
         margin-right: auto;
         margin-left: auto;
-        border-radius: 100%;
         box-shadow: 0 0 20px 0 rgb(234, 232, 236);
     }
 
