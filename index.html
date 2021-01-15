@@ -55,7 +55,7 @@
             <button id="whoBtn"><a href="#who">Who?</a></button>
             <button id="upBtn"><a href="#upto">Projects</a></button>
             <button id="projectBtn" hidden><a href="#proj">Projects I'm proud of</a></button>
-            <button id="devbtn"><a href="#dev">My dev stack</a></button>
+            <button id="devbtn"><a href="#dev">Skills</a></button>
           </div>
         </div>  
       </nav>
@@ -64,9 +64,10 @@
       <div class="row header ">
 
         <div class="masthead col-lg-6 mobile">
-            <div class="masthead-color-block"></div>
-            <div class="masthead-img">
-            </div>
+            <a  href="#upto">
+              <div class="masthead-img">
+              </div>      
+            </a>
           </div>
 
         <div class="col-lg-5 main"> 
@@ -121,8 +122,10 @@
 
         <div class="masthead col-lg-6 pc">
           <div class="masthead-color-block"></div>
-          <div class="masthead-img">
-          </div>
+          <a  href="#upto">
+            <div class="masthead-img">
+            </div>
+          </a>
         </div>
       </div>
 
@@ -139,7 +142,7 @@
         <div class="mt-5 who-cards ml-auto mr-auto col-lg-9">
            
 
-          <div class="p-5">
+          <div class="p-4">
             <h4 class="card-title"><i class="fa fa-laptop-code "></i> Web Developer</h4>
             <p class="card-disc">I've used many programming languages for the past 6+ years. with that, I picked out the ones that allow me to build and ship high-quality websites faster and better. <br><p id="sdev" class="link pl-0" style="cursor: pointer;">See my current development stack</></p>
             <p hidden class="card-disc">I’m a self-taught developer so I dabbled in so many programming languages which I didn’t understand any of them specially c++, I have 0 clues what do that. So after getting nowhere with that, I learned that having a foundation is key to learning code so I started learning python on <a href=”https://www.sololearn.com/” target=”_blank” class="link">Solo learn</a> which i learned the basics and fundamentals of programming which then allowed me to see that most programming languages are the same (at least some of their structures) so now that I’ve learned the fundamentals I went on to learn javascript which opened a whole new world of optimization, frameworks and dynamic content which led me on to learn angular.js, node.js, SQL, firebase, Flutter and much more. Technologies I’ve used <button id="sdev" class="link pl-0">my current dev stack</button></p>
@@ -167,7 +170,7 @@
         <div class=" mt-5 ml-auto mr-auto col-lg-12">
             <!-- projects goes here -->
           <div id="projects" class="upto-cards mt-5 pt-4"></div>
-          <div class="row ml-0 mt-4">
+          <div class="row ml-0 mt-4" hidden>
             <iframe style="border: none;" class="ml-auto mr-auto" src="https://cards.producthunt.com/cards/posts/271961?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
           </div>
           </div>
@@ -202,11 +205,11 @@
                 <h3><i class="fab fa-js mr-2"></i>Javascript</h3>
               </div>
 
-              <div>
+              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="I've learned the basics and some functional part of it now learning Redux shouldn't take me long to finish. but i can still make websites with react coming up with project ideas currently ">
                 <h3><i class="fa fa-atom mr-2"></i> React</h3>
               </div>
              
-              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="mostly use it for task automation">
+              <div>
                 <h3><img src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png" alt="" /> TypeScript</h3>
               </div>
         
@@ -263,12 +266,12 @@
                 <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt=""> Pyhton</h3>
               </div>
 
-              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Used it for small projects">
+              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Used it for small projects, and then left it for React.">
                 <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png" alt=""> Angularjs</h3>
               </div>
 
 
-              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Briefly used for an ionic app">
+              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Briefly used for an ionic app tutorial project but i left ionic for Flutter so never used it ever since using - Less - now for CSS pre-processing ">
                 <h3><i class="fab fa-sass mr-2"></i>sass</h3>
               </div>
 
@@ -286,11 +289,14 @@
           <p class="disc" hidden>You cant make a successful product without it being appealing to the users so here are the tools I use to achieve exactly that</p>
         </div>
         
-        <div class="mb-5 mt-5 smaller-cards ml-auto mr-auto col-lg-8">
+        <div class="mb-5 mt-5 smaller-cards ml-auto mr-auto col-lg-7">
             
            
               <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Adobe Illustrator is by far my favorite adobe product I use it to design logos, websites, icons, illustrations the list goes on">
                 <h3><i class="fab fa-adobe mr-2"></i>Adobe Illustrator</h3>
+              </div>
+              <div data-toggle="tooltip" data-placement="top" title="" data-original-title="Prototyping my designs and some quick sketching web-app ideas">
+                <h3><img src="https://cdn.worldvectorlogo.com/logos/invision.svg" alt=""> Invision</h3>
               </div>
               <div data-toggle="tooltip" data-placement="top" title="" data-original-title="I use Figma to prototype my designs">
                 <h3><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt=""> Figma</h3>
@@ -303,16 +309,28 @@
 
 
 
+     <div class="row footer">
+          <p class="description text-center col-lg-5 ml-auto mr-auto p-5 bold light">
+               I can help you Quickly <font class="pink">build</font> and <font class="pink">ship</font> quality apps. <br/> Feel Free To Say Hi! i'm super friendly 😊
+          </p>
+        </div>
 
-    <div class="row footer">
-      <i class="p-3"></i>
-      <a href="mailto:alemalohe@gmail.com" target="_blank" rel="noopener noreferrer" class="pc col-lg-12"><button class="hire2 col-lg-12"><i class="fa fa-envelope"></i> Let's Chat</button></a>
-    </div>
+
+
+     <div class="row footer">
+          <i class="p-3"></i>
+          <a href="mailto:alemalohe@gmail.com" class="pc col-lg-12"><button class="hire2 col-lg-12"><i class="fa fa-envelope"></i> Let's Chat</button></a>
+      </div>
 
     <!-- some js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>  
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>  
 
+    <!-- firebase cdn -->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+    
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
@@ -320,29 +338,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
 
     <!-- custom js files -->
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        //fetch data
-        var headers = new Headers();
-        headers.append("key","value");
-
-        var options = {
-            method: "GET",
-            headers : headers,
-            mode: "cors",
-            cache: "default"
-        }
-
-        function init(){
-            fetch('https://api.dc.octos.me/api/user/site/?token=eyJkYXRhIjoic2l0ZV9pZCIsImlhdCI6MTYxMDY3ODQzOX0', options)
-            .then(response => console.log(response.json()))
-            .then((response)=>{
-                    console.log(response);
-            }).catch(error => console.log("Error !",error));
-        }
-
-        window.onload = ()=>init()
-    </script>
+    <script src="assets/js/bundle.js"></script>
+    
 </body>
 </html>
