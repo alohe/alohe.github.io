@@ -147,8 +147,8 @@ var headerImgs = document.querySelectorAll(".masthead-img");
 
 var imgs = [
   "https://cdn.dribbble.com/users/2831668/screenshots/11360846/media/b9bae33e1be618df8bf0fc4c263f58b1.gif",
-  "https://cdn.dribbble.com/users/2831668/screenshots/11458323/media/f0f3675b8b660e66d0b2c95422d16472.gif",
-  "https://cdn.dribbble.com/users/2831668/screenshots/11501577/media/54a643e02316ef41bececc06998d35c2.png?compress=1&resize=800x600",
+  "https://cdn.dribbble.com/users/2831668/screenshots/15285863/media/b9f9af28288a41a645d67873b18c888a.jpg?compress=1&resize=800x600",
+  "https://cdn.dribbble.com/users/2831668/screenshots/15076729/media/a093d8595a873706b3a92eb760f7c12e.jpg?compress=1&resize=800x600",
   "https://dc.octos.me/scrolling.gif",
   "https://cdn.dribbble.com/users/2831668/screenshots/14421892/media/b891d1751c91a8844ce48cf7f2aa3253.jpg?compress=1&resize=800x600",
 ];
