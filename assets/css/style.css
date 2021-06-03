@@ -64,10 +64,15 @@ button:focus{
     letter-spacing: 1px;
 }
 
-.disc{
-    
+.main-disc{
     font-family: 'Montserrat';
-    color: var(--dark-light);
+    color: var(--dark);
+    font-weight: 400;
+    font-size: 15px;
+}
+.disc{
+    font-family: 'Montserrat';
+    color: var(--dark);
     font-weight: 400;
     font-size: 15px;
 }
@@ -452,7 +457,6 @@ nav button:hover{
 
 
 /* cards */
-
 .who-cards{
     display: grid;
     gap: 3rem;
