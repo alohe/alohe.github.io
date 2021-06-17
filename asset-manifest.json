@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reacttest/static/css/main.a8f12b14.chunk.css",
+    "main.js": "/reacttest/static/js/main.84656181.chunk.js",
+    "main.js.map": "/reacttest/static/js/main.84656181.chunk.js.map",
+    "runtime-main.js": "/reacttest/static/js/runtime-main.1184f3bc.js",
+    "runtime-main.js.map": "/reacttest/static/js/runtime-main.1184f3bc.js.map",
+    "static/css/2.d649c8cc.chunk.css": "/reacttest/static/css/2.d649c8cc.chunk.css",
+    "static/js/2.d671a2bd.chunk.js": "/reacttest/static/js/2.d671a2bd.chunk.js",
+    "static/js/2.d671a2bd.chunk.js.map": "/reacttest/static/js/2.d671a2bd.chunk.js.map",
+    "index.html": "/reacttest/index.html",
+    "static/css/2.d649c8cc.chunk.css.map": "/reacttest/static/css/2.d649c8cc.chunk.css.map",
+    "static/css/main.a8f12b14.chunk.css.map": "/reacttest/static/css/main.a8f12b14.chunk.css.map",
+    "static/js/2.d671a2bd.chunk.js.LICENSE.txt": "/reacttest/static/js/2.d671a2bd.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/reacttest/static/media/NHaasGroteskTXPro-75Bd.735104a2.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1184f3bc.js",
+    "static/css/2.d649c8cc.chunk.css",
+    "static/js/2.d671a2bd.chunk.js",
+    "static/css/main.a8f12b14.chunk.css",
+    "static/js/main.84656181.chunk.js"
+  ]
+}
