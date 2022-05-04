@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5ef03aa.chunk.css",
-    "main.js": "/static/js/main.5d24c401.chunk.js",
-    "main.js.map": "/static/js/main.5d24c401.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cfbc967c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cfbc967c.js.map",
-    "static/css/2.591db2b6.chunk.css": "/static/css/2.591db2b6.chunk.css",
-    "static/js/2.afbb5777.chunk.js": "/static/js/2.afbb5777.chunk.js",
-    "static/js/2.afbb5777.chunk.js.map": "/static/js/2.afbb5777.chunk.js.map",
+    "main.css": "/static/css/main.1d751dd3.css",
+    "main.js": "/static/js/main.b7716e2c.js",
+    "static/media/NHaasGroteskTXPro-65Md.ttf": "/static/media/NHaasGroteskTXPro-65Md.13fc4bcc7d627880a120.ttf",
+    "static/media/NHaasGroteskTXPro-75Bd.ttf": "/static/media/NHaasGroteskTXPro-75Bd.735104a20ca736af2b46.ttf",
+    "static/media/NHaasGroteskTXPro-55Rg.ttf": "/static/media/NHaasGroteskTXPro-55Rg.69ec3dbc481a645ac30a.ttf",
+    "static/media/grifterbold.otf": "/static/media/grifterbold.c26f0513244c098533d5.otf",
     "index.html": "/index.html",
-    "static/css/2.591db2b6.chunk.css.map": "/static/css/2.591db2b6.chunk.css.map",
-    "static/css/main.f5ef03aa.chunk.css.map": "/static/css/main.f5ef03aa.chunk.css.map",
-    "static/js/2.afbb5777.chunk.js.LICENSE.txt": "/static/js/2.afbb5777.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/static/media/grifterbold.c26f0513.otf"
+    "main.1d751dd3.css.map": "/static/css/main.1d751dd3.css.map",
+    "main.b7716e2c.js.map": "/static/js/main.b7716e2c.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfbc967c.js",
-    "static/css/2.591db2b6.chunk.css",
-    "static/js/2.afbb5777.chunk.js",
-    "static/css/main.f5ef03aa.chunk.css",
-    "static/js/main.5d24c401.chunk.js"
+    "static/css/main.1d751dd3.css",
+    "static/js/main.b7716e2c.js"
   ]
 }
