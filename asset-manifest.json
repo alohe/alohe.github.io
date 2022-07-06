@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b5917f.css",
-    "main.js": "/static/js/main.6223eb04.js",
+    "main.js": "/static/js/main.5faaeec2.js",
     "static/media/NHaasGroteskTXPro-65Md.ttf": "/static/media/NHaasGroteskTXPro-65Md.13fc4bcc7d627880a120.ttf",
     "static/media/NHaasGroteskTXPro-75Bd.ttf": "/static/media/NHaasGroteskTXPro-75Bd.735104a20ca736af2b46.ttf",
     "static/media/NHaasGroteskTXPro-55Rg.ttf": "/static/media/NHaasGroteskTXPro-55Rg.69ec3dbc481a645ac30a.ttf",
     "static/media/grifterbold.otf": "/static/media/grifterbold.c26f0513244c098533d5.otf",
     "index.html": "/index.html",
     "main.a0b5917f.css.map": "/static/css/main.a0b5917f.css.map",
-    "main.6223eb04.js.map": "/static/js/main.6223eb04.js.map"
+    "main.5faaeec2.js.map": "/static/js/main.5faaeec2.js.map"
   },
   "entrypoints": [
     "static/css/main.a0b5917f.css",
-    "static/js/main.6223eb04.js"
+    "static/js/main.5faaeec2.js"
   ]
 }
