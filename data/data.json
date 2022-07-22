@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "link": "https://alohe.github.io/emojicloud/",
+      "name": "Emoji cloud 2.0",
+      "desc": "Emoji cloud is a super lightweight CDN for vector emojis.",
+      "year": "2022",
+      "jpg": "https://ph-files.imgix.net/2b73eb4f-40e9-41e2-a98a-54b9c2d87a52.gif?fm=jpg&w=72&h=72&crop=max&dpr=2&bg=0fff#t=0.001",
+      "gif": "https://ph-files.imgix.net/2b73eb4f-40e9-41e2-a98a-54b9c2d87a52.gif?fm=gif&w=72&h=72&crop=max&dpr=2&bg=0fff#t=0.001",
+      "langs": ["Html", "CSS", "JavaScript"]
+    },
+    {
+      "link": "https://alohe.github.io/flashy/",
+      "name": "Flashy",
+      "desc": "The Easiest way to create engaging Gif's for your product launches",
+      "year": "2021",
+      "jpg": "https://ph-files.imgix.net/3275b64d-be20-4b1c-b25d-f6d60f62fd4c.gif?fm=jpg&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "gif": "https://ph-files.imgix.net/3275b64d-be20-4b1c-b25d-f6d60f62fd4c.gif?fm=gif&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "langs": ["Html", "CSS", "JavaScript"]
+    },
+    {
+      "link": "https://alohe.github.io/redd/",
+      "name": "Redd",
+      "desc": "All your favorite sub-reddit's categorized and organized.",
+      "year": "2021",
+      "jpg": "https://ph-files.imgix.net/98703a14-5f59-42cf-af6b-9f8672543242.gif?fm=jpg&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "gif": "https://ph-files.imgix.net/98703a14-5f59-42cf-af6b-9f8672543242.gif?fm=gif&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "langs": ["React", "Reddit API", "Bootstrap"]
+    }
+  ],
+  "other_projects": [
+    {
+      "link": "https://alohe.github.io/emojicloud/design/",
+      "name": "Emoji Cloud",
+      "desc": "Add fully vector emoji's to your website",
+      "year": "2021",
+      "jpg": "https://ph-files.imgix.net/4988e03e-03d5-4d2d-a10e-52cd83304850.gif?fm=jpg&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "gif": "https://ph-files.imgix.net/4988e03e-03d5-4d2d-a10e-52cd83304850.gif?fm=gif&w=80&h=80&crop=max&dpr=2&bg=0fff#t=0.001",
+      "langs": ["Html", "CSS", "JavaScript"]
+    },
+    {
+      "link": "https://error5665.com/?ref=alohe",
+      "name": "Error5665.com",
+      "desc": "A website for Error5665.com",
+      "year": "2020",
+      "jpg": "/assets/img/Work/work (5).png",
+      "gif": "/assets/img/Work/work (5).png",
+      "langs": ["React", "Node.js", "Express", "Paypal", "Bootstrap"]
+    },
+    {
+      "link": "https://asindoctor.com/?ref=alohe",
+      "name": "Asindoctor.com",
+      "desc": "A website for Asindoctor",
+      "year": "2019",
+      "jpg": "/assets/img/Work/work (4).png",
+      "gif": "/assets/img/Work/work (4).png",
+      "langs": ["PHP", "jQuery", "Bootstrap"]
+    }
+  ],
+  "skills": ["React", "Next.js", "JavaScript", "SCSS", "Node.js", "Firebase"]
+}
