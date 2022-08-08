@@ -57,5 +57,5 @@
       "langs": ["PHP", "jQuery", "Bootstrap"]
     }
   ],
-  "skills": ["React", "Next.js", "JavaScript", "SCSS", "Node.js", "Firebase"]
+  "skills": ["JavaScript", "Typescript", "React", "SCSS", "Node.js", "Firebase"]
 }
